@@ -1,0 +1,3 @@
+# Technical specifications
+## Resources
+## Storage
