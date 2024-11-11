@@ -1,33 +1,35 @@
 # Getting started
 ## Prerequisites
 To start using STAER you need:
-- get an STAER account,
-- a SSH client,
-- good understanding of share resources concept,
-- be familiar with Unix/Linux command-line environments
+- An approved STAER account (see instructions below)
+- An SSH client
+- A basic understanding of shared resource usage in HPC environments
+- Familiarity with Unix/Linux command-line interfaces
 
 ## Get an account
-To get an account you can put your request on staer@skoltech.ru After approve you will be given:
+To request an account, email staer@skoltech.ru with your details. Upon approval, you will receive:
 ```
 login: <your login>
 password: <initial password>
 ```
 
 > [!IMPORTANT]
-> The **<initial password\>** is given can be used only for the first connection to the cluster via SSH.
+> The **<initial password\>** provided is temporary and can only be used for your first login.
 
 ## First SSH connection
-You can connect from local Skoltech network via
+From the Skoltech network, connect to STAER using:
 ```
 ssh <your_login>@staer
 ```
 
-> [!IMPORTANT]
-> As you connected for the first time you have to enter your **<initial password\>**.
-> You will be provided with string *Password expired. Change your password now.*
-> Inter your **<initial password\>** one more time.
-> Then create your **<new password\>** and type it one more time.
+> [!IMPORTANT] During your first login, you will need to
+> 1. Enter you **<initial password\>**.
+> 2. Follow the prompt to change your password (you will see *Password expired. Change your password now.*).
+> 3. Enter the **<initial password\>** again.
+> 4. Set a **<new password\>** and confirm it.
 
-Now you are logged on logging node and ready for submitting your jobs for computing.
+Once your new password is set, you are logged into the login node and ready to submit jobs.
 
-## Host keys
+## Setting Up SSH Key-Based Authentication
+
+To simplify future connections, you can create an SSH key pair and add your public key to STAER. This allows passwordless login and enhances security.
