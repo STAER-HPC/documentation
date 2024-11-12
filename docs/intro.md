@@ -1,4 +1,4 @@
-# Inroduction
+# Introduction
 
 STAER, or the SkolTech Advanced Engineering Research computing facility, is a high-performance computing (HPC) cluster built to meet the research needs of Skoltech researchers. Designed with cutting-edge hardware and software, STAER allows you to run computationally intensive tasks that would be impossible or impractical on regular computers.
 
