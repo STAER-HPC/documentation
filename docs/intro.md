@@ -7,4 +7,3 @@ STAER, or the SkolTech Advanced Engineering Research computing facility, is a hi
 - **Total Nodes:** 6 computing nodes
 - **Total Cores:** 192 cores, allowing for parallel processing of large datasets and simulations
 - **Applications:** Suitable for CPU demanded tasks
-
