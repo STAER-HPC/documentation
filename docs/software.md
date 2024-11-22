@@ -10,9 +10,9 @@ A set of supported software installations is provided for use on Sherlock. This 
 
 |  **Field**  | **Module name** | **Version** |
 |:-----------:|:---------------:|:-----------:|
-|   chemisty  |     gromacs     |    2024.1   |
-|   chemisty  |      lammps     |  20230802.3 |
-| engineering |      abaqus     |  2018, 2021 |
-|     cfd     |     openfoam    |     2312    |
-|   physics   |      comsol     |     6.2     |
+|   chemistry  |     gromacs     |    2024.1   |
+|   chemistry  |      lammps     |  20230802.3 |
+|  engineering |      abaqus     |  2018, 2021 |
+|      cfd     |     openfoam    |     2312    |
+|    physics   |      comsol     |     6.2     |
 </div>
