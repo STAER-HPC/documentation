@@ -1,6 +1,6 @@
 # Software
 ## Available software
-A set of supported software installations is provided for use on Sherlock. This software is made available through a Software Modules system. For the complete list of available software, please refer to the Software List page.
+A set of supported software installations is provided for use on STAER. This software is made available through a Software Modules system. For the complete list of available software, please refer to the list of available software.
 
 ## List of available software
 
