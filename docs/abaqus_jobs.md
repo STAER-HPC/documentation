@@ -35,7 +35,7 @@ When working with Abaqus on a cluster, there are two main approaches to prepare 
 #### Approach 2: Connect via RDP and Set Up Problem on Cluster
 
 1. **Connect to the Cluster Using RDP:**
-   - Use an RDP client to connect to the login node and access the GNOME environment.
+   - Use an RDP client to connect to the login node and access the GUI environment. Instruction about GUI access is here [link](https://sci.skoltech.ru/staer/gui_access)
 
 2. **Set Up Your Abaqus Model:**
    - Open Application and start "Abaqusv2021" and prepare your model directly on the cluster.
