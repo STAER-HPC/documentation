@@ -85,27 +85,6 @@ Once submitted, Slurm will queue the job and assign resources as they become ava
 
 After submitting a job, you can monitor its status with the `squeue` command, which displays details such as whether the job is **running**, **pending**, or **completed**.
 
-The `squeue` command has the following output format:
-
-| JOBID  | PARTITION | USER | STATE | TIME | PRIORITY | SUBMIT_TIME | START_TIME | TIME_LIMIT |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 405 |  | test | running | 10:15 |  |  |  | unlimited |
-
-**JOBID** - sequential number of the computational job
-
-**PARTITION** is designation of the computer complex on the nodes of which the computational task is executed.
-
-**USER** is user account from which the computational task is executed
-
-**STATE** is state of the computational task
-
-**TIME** is time during which the computational task is executed
-
-**PRIORITY** is current priority of the computational task
-
-**TIME_LIMIT** is maximum execution time of the computational task.
-
-
 ### Cancel job
 If you need to cancel a job, use the scancel command followed by the job ID:
 
