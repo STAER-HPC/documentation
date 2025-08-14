@@ -1,4 +1,4 @@
-# Remote Access to Cluster "staer" with GUI
+# Remote Access to Cluster "STAER" with GUI
 
 ## Accessing "staer" Remotely
 
@@ -6,7 +6,7 @@
 > The GUI places a significant load on the login node. Use the GUI only for minor preparation tasks and do not start any calculations on the login node. Use SLURM to submit jobs for processing.
 
 1. **Ensure Network Access**
-   - Verify that your device is connected to the authorized network or VPN as specified by your system administrator.
+   - Verify that your device is connected to the authorized network or VPN.
 
 2. **Setting Up Remote Desktop Protocol (RDP)**
 
@@ -15,7 +15,7 @@
    - **Step 2:** Launch "Remote Desktop Connection."
    - **Step 3:** Enter `staer` in the "Computer" field.
    - **Step 4:** Click "Connect" to initiate the connection.
-   - **Step 5:** Input your credentials as provided by the system administrator.
+   - **Step 5:** Input your credentials.
 
    ### On Linux:
    - **Step 1:** Install an RDP client, such as `Remmina`, using your package manager (e.g., `sudo apt install remmina`).
@@ -23,7 +23,7 @@
    - **Step 3:** Enter `staer` in the address bar or create a "New Connection."
    - **Step 4:** Set the protocol to RDP and save the connection settings.
    - **Step 5:** Double-click the saved connection to connect.
-   - **Step 6:** Enter your credentials as provided by the system administrator.
+   - **Step 6:** Enter your credentials.
 
    ### On macOS:
    - **Step 1:** Download and install "Microsoft Remote Desktop" from the App Store.
@@ -32,7 +32,7 @@
    - **Step 4:** Enter `staer` in the "PC Name" field.
    - **Step 5:** Click "Add" to save the connection.
    - **Step 6:** Double-click the saved PC to initiate the connection.
-   - **Step 7:** Enter your credentials as provided by the system administrator.
+   - **Step 7:** Enter your credentials.
 
 3. **Log in with Your Credentials**
    - Use the credentials provided by the system administrator to log in.
