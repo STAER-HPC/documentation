@@ -51,19 +51,26 @@ The submission script itself is a job step. Other job steps are created with the
 
 ### Job submitting
 
-Here is an example of a basic Slurm `example.job` script:
+## How to Submit Jobs
 
-```
+### 1. Write a Batch Script
+Create a plain Bash script whose first lines begin with `#SBATCH` directives:
+
+```bash
 #!/bin/bash
-#SBATCH --job-name=my_job              # Job name
-#SBATCH --time=01:00:00                # Wall time (hh:mm:ss)
-#SBATCH --ntasks=4                     # Number of tasks (CPU cores)
-#SBATCH --mem=4G                       # Memory requirement per node
+#SBATCH --job-name=my_job          # Descriptive name
+#SBATCH --partition=intel          # intel  (or) amd
+#SBATCH --time=12:00:00            # Default wall time: 12 h, up to 48 h
+#SBATCH --nodes=1                  # Number of nodes
+#SBATCH --ntasks=4                 # Total CPU cores
+#SBATCH --mem=4G                   # Memory per node
+#SBATCH --output=%x-%j.out         # Std-out file  (%x=job name, %j=job ID)
 
-# Execute the job steps
-srun hostname
-srun sleep 60
+module purge                       # Clean module environment
+module load openmpi/5.0.3          # Load software you need
 
+hostname                           # Replace with your own commands
+sleep 60
 ```
 
 Submit the `example.job` script to the scheduler using the `sbatch` command:
